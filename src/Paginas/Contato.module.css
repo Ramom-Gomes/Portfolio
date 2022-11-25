@@ -75,7 +75,7 @@
     }
 
     .numero {
-        width: 260px;
+        width: 310px;
         display: flex;
         flex-direction: column;
         height: 350px;
@@ -92,7 +92,7 @@
     .email {
         display: flex;
         flex-direction: column;
-        width: 280px;
+        width: 310px;
         height: 350px;
     }
 }

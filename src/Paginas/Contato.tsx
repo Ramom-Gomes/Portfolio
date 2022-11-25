@@ -5,7 +5,7 @@ import Email from '../imagens/email.png';
 export const Contato = () => {
     return (
         <div className={styles.main}>
-            <div className={styles.numero}> 
+            <div className={styles.numero}>  
                 <img className={styles.fotoNumero} src={Telefone} alt="" />
                 <div>
                     <p className={styles.infoNumero}>Telefone</p>
