@@ -1,0 +1,30 @@
+.main {
+    max-width: 1500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 350px;
+}
+
+.sobre {
+    font-size: 23px; 
+    color: #A4ACC4;
+}
+
+.info {
+    font-size: 23px;
+    color: #A4ACC4;
+    margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+    .main {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        margin-left: 40px;
+    }
+}

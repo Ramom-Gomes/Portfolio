@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    max-width: 1500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 350px;
+    margin-bottom: 50px;
+}
+
+.numero {
+    width: 500px;
+    height: 250px;
+    padding: 40px;
+    background-color: #191D2B;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.fotoNumero {
+    width: 90px;
+    border-radius: 100%;
+    margin-right: 30px;
+}
+
+.infoNumero {
+    font-size: 23px;
+    color: #FFFFFF;
+}
+
+.infoNumero2 {
+    font-size: 23px;
+    margin-top: 20px;
+    color: #A4ACC4;
+}
+
+.email {
+    width: 500px;
+    height: 250px;
+    padding: 40px;
+    background-color: #191D2B;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+    .main {
+        margin-left: 50px;
+        margin-top: 80px;
+    }
+
+    .numero {
+        width: 420px;
+    }
+
+    .email {
+        width: 440px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        margin-left: 50px;
+        margin-top: 80px;
+    }
+
+    .numero {
+        width: 260px;
+        display: flex;
+        flex-direction: column;
+        height: 350px;
+    }
+
+    .infoNumero {
+        margin-top: 10px;
+    }
+
+    .fotoNumero {
+        margin-right: 0;
+    }
+
+    .email {
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        height: 350px;
+    }
+}
+    
