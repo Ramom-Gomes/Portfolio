@@ -9,7 +9,7 @@
 }
 
 .menu {
-    background-color: #00008B;
+    background-color: rgb(37,47,70);
     width: 300px;
     display: flex;
     flex-direction: column; 
@@ -19,7 +19,7 @@
 }
 
 .menu2 {
-    background-color: #00008B;
+    background-color: #010937;
     display: flex;
     flex-direction: column;
     align-items: center;

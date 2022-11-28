@@ -10,7 +10,7 @@ export const Container = styled.div<PropsDiv>`
 `;
 
 export const Menu = styled.div<PropsDiv>`
-    background-color: #00008B;
+    background-color: #010937;
     width: 300px;
     display: flex;
     flex-direction: column;
