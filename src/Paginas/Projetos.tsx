@@ -7,6 +7,7 @@ import List from '../imagens/List.jpeg';
 import Calc from '../imagens/Calc.jpeg';
 import Medi from '../imagens/Medi.jpeg';
 import Star from '../imagens/Star.jpeg'; 
+import Cartao from '../imagens/Cartao.jpeg';
 
 export const Projetos = () => {
     return (
@@ -57,13 +58,13 @@ export const Projetos = () => {
                     </div>
                 </div>
                 <div className={styles.projetos}>
-                    <img className={styles.imagem} src={List} />
+                    <img className={styles.imagem} src={Cartao}/>
                     <p className={styles.informacoes}>
-                        Lista de tarefas feito com HTML, CSS e Javascript.
+                        Cadastro de cartão feito com Reactjs e Typescript.
                     </p>
                     <div className={styles.links}>
-                        <a className={styles.sites} target="_blank" href="https://clinquant-griffin-0f12fa.netlify.app/">Demo</a>
-                        <a className={styles.sites} target="_blank" href="https://github.com/Ramom-Gomes/Todo-List">Github</a>
+                        <a className={styles.sites} target="_blank" href="https://fluffy-lolly-a98391.netlify.app/">Demo</a>
+                        <a className={styles.sites} target="_blank" href="https://github.com/Ramom-Gomes/Formulario-de-Cartao">Github</a>
                     </div>
                 </div>
                 <div className={styles.projetos}>
@@ -78,6 +79,16 @@ export const Projetos = () => {
                 </div>
              </div>
              <div className={styles.submain}>
+             <div className={styles.projetos}>
+                    <img className={styles.imagem} src={List} />
+                    <p className={styles.informacoes}>
+                        Lista de tarefas feito com HTML, CSS e Javascript.
+                    </p>
+                    <div className={styles.links}>
+                        <a className={styles.sites} target="_blank" href="https://clinquant-griffin-0f12fa.netlify.app/">Demo</a>
+                        <a className={styles.sites} target="_blank" href="https://github.com/Ramom-Gomes/Todo-List">Github</a>
+                    </div>
+                </div>
                 <div className={styles.projetos}>
                     <img className={styles.imagem} src={Medi} />
                     <p className={styles.informacoes}>
@@ -96,16 +107,6 @@ export const Projetos = () => {
                     <div className={styles.links}>
                         <a className={styles.sites} target="_blank" href="https://teal-travesseiro-e495c8.netlify.app/">Demo</a>
                         <a className={styles.sites} target="_blank" href="https://github.com/Ramom-Gomes/Projeto-Starbucks">Github</a>
-                    </div>
-                </div>
-                <div className={styles.projetos}>
-                    <img className={styles.imagem} />
-                    <p className={styles.informacoes}>
-                        Carregando...
-                    </p>
-                    <div className={styles.links}>
-                        <a className={styles.sites} target="_blank" href="https://www.linkedin.com/in/ramomgomes/">Demo</a>
-                        <a className={styles.sites} target="_blank" href="https://www.linkedin.com/in/ramomgomes/">Github</a>
                     </div>
                 </div>
              </div>
